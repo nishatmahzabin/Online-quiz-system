@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="login-container">
+        <h2>Login</h2>
+        <form id="login-form" method="POST" action="login.php">
+            <div>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+            </div>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="quiz-container" style="display:none;">
+        <h1>Simple Quiz</h1>
+        <form id="quiz-form" method="POST" action="connect.php">
+            <div class="question">
+                <label>1. What is the capital of Bangladesh?</label><br>
+                <input type="radio" name="q1" value="a"> Khulna
+                <input type="radio" name="q1" value="b"> Dhaka
+                <input type="radio" name="q1" value="c"> Cumilla
+                <input type="radio" name="q1" value="d"> Sylhet
+            </div>
+
+            <div class="question">
+                <label>2. Which planet is known as the Red Planet?</label><br>
+                <input type="radio" name="q2" value="a"> Earth
+                <input type="radio" name="q2" value="b"> Mars
+                <input type="radio" name="q2" value="c"> Jupiter
+                <input type="radio" name="q2" value="d"> Saturn
+            </div>
+
+            <div class="question">
+                <label>3. Who wrote 'Romeo and Juliet'?</label><br>
+                <input type="radio" name="q3" value="a"> Charles Dickens
+                <input type="radio" name="q3" value="b"> William Shakespeare
+                <input type="radio" name="q3" value="c"> Mark Twain
+                <input type="radio" name="q3" value="d"> Jane Austen
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
