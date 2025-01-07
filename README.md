@@ -6,13 +6,15 @@ FEATURES :
 - Questions
 - Solving question
 - Results
+  
 HOW TO USE:
 Clone the repository and set up the database.
 Update database credentials in db.php.
 Run the project on a local server (e.g., XAMPP).
 
 
-Team Members
+Team Members :
+
 Md.Nishat Mahzabin (04323100005101095)
 
 Md.Hasibur Rahman (04323100005101073)
